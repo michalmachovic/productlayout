@@ -1,5 +1,5 @@
 <?php 
-namespace Gateway3D\ProductLayout\Model\Config\Source;
+namespace MichalMachovic\ProductLayout\Model\Config\Source;
  
 use Magento\Eav\Model\ResourceModel\Entity\Attribute\OptionFactory;
 use Magento\Framework\DB\Ddl\Table;

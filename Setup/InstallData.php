@@ -1,6 +1,6 @@
 <?php
 
-namespace Gateway3D\ProductLayout\Setup;
+namespace MichalMachovic\ProductLayout\Setup;
 
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
@@ -44,14 +44,14 @@ class InstallData implements InstallDataInterface
 				'g3d_product_layout',
 				[
 					'global' => \Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface::SCOPE_STORE,
-					'group' => 'Gateway3D Product Layout',
+					'group' => 'Product Layout',
 					'input' => 'select',
 					'label' => 'Product Layout',
 					'required' => false,
 					'sort_order' => 15,
 					'used_in_product_listing' => true,
                 	'backend' => '',
-                	'source' => 'Gateway3D\ProductLayout\Model\Config\Source\Options',
+                	'source' => 'MichalMachovic\ProductLayout\Model\Config\Source\Options',
                 	'visible_on_front' => true,
                 	'option' => [ 
                     	'values' => [],
