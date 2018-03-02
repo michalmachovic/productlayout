@@ -1,0 +1,15 @@
+{
+	"name":"gateway3d/product-layout",
+	"description": "Gateway3D Product Layout",
+	"type": "vcs",
+	"url": "git@bitbucket.org:gateway3d/product-layout.git",
+	"require": {
+		"php": "~5.6.0|~7.0.0",
+		"magento/module-catalog": "*"
+	},
+	"version": "1.0.0.0",
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": { "Gateway3D\\ProductLayout\\": "" }
+	}
+}
